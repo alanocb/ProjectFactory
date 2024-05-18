@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/temp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:text="Luzes Exteriores"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonLigar"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Ligar LED" />
+
+    <Button
+        android:id="@+id/buttonDesligar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Desligar LED" />
+
+    <TextView
+        android:id="@+id/LuzRGB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Luz RGB"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/rgbRed"
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:text="Vermelho" />
+
+    <Button
+        android:id="@+id/rgbGreen"
+        android:layout_width="118dp"
+        android:layout_height="match_parent"
+        android:text="Verde" />
+
+    <Button
+        android:id="@+id/rgbBlue"
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:text="Azul" />
+
+    <Button
+        android:id="@+id/rgbOff"
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:text="Desligar" />
+
+    <TextView
+        android:id="@+id/temperatureTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Temperature: N/A"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/humidityTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Humidity: N/A"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/refreshButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Refresh Data" />
+
+</LinearLayout>
