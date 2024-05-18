@@ -5,8 +5,8 @@
 #include <DHT.h>
 #include <Servo.h>
 
-#define WIFI_NAME   "Visitors"
-#define WIFI_PASS   ""
+#define WIFI_NAME   "<wifi name>"
+#define WIFI_PASS   "<wifi pass>"
 
 #define DHTPIN D2     // temp humidade sensor
 #define DHTTYPE DHT11  
