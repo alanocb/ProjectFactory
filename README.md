@@ -81,9 +81,10 @@ A aplicação móvel é a interface principal para os utilizadores interagirem c
 
 ## Circuito Atual do Projeto
 
+### Circuito Caixote de Lixo Automático
+
 ![caixote-de-lixo-circuito](https://github.com/alanocb/ProjectFactory/assets/99679262/854f671d-e6d7-472e-b951-06d9e85e0fe5)
 
-### Circuito Caixote de Lixo Automático
 Devido à limitação de pinos e para garantir que o caixote de lixo funcione de forma independente da tenda, decidimos separar este componente utilizando um outro ESP8266 dedicado. As principais razões e benefícios dessa abordagem incluem:
 
 - **Independência Operacional**: O uso de um ESP8266 separado para o caixote de lixo automático assegura que ele possa operar de forma autônoma, sem depender da funcionalidade geral da tenda. Isto é particularmente útil para manutenção e atualizações, permitindo que o caixote de lixo continue a funcionar mesmo se o sistema principal da tenda estiver temporariamente inoperante.
