@@ -78,6 +78,8 @@ A aplicação móvel é a interface principal para os utilizadores interagirem c
 ### Monitorização de Sensores
 - **Verificação de Temperatura e Humidade**: A aplicação exibe dados em tempo real do sensor KY-015, permitindo aos utilizadores monitorizar a temperatura e a humidade dentro da tenda. Os dados são apresentados em gráficos e/ou indicadores numéricos, facilitando a interpretação.
 - **Monitorização de Batimentos Cardíacos**: Os dados de BPM recolhidos pelo sensor KY-039 são exibidos na aplicação, permitindo que os utilizadores monitorizem os seus batimentos cardíacos em tempo real. Esta funcionalidade é particularmente útil para a gestão da saúde e bem-estar dos utilizadores.
+  
+![Screenshot 2024-05-24 003507](https://github.com/alanocb/ProjectFactory/assets/99679262/17c544a1-5280-4d60-9375-0789f9d2635f)
 
 ## Circuito Atual do Projeto
 
