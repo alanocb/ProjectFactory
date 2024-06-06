@@ -8,7 +8,7 @@ app.use(bodyParser.json());
 
 let isLedOn = false;
 
-const arduinoURL = 'http://10.72.1.186/';
+const arduinoURL = 'http://<ip_from_esp>/';
 
 app.get('/led/status', (req, res) => {
   res.json({ status: isLedOn });
